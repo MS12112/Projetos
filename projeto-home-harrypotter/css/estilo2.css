@@ -1,0 +1,128 @@
+.menu {
+     background-color: transparent;
+     position: relative;
+     right: 0cm;
+     margin: 2%;
+     float: right;
+     word-spacing: 14px;
+     font-size: 25px;
+     transition: 0.2s;
+
+    }
+    
+.menu a {
+     padding: 10px 20px;
+     border-radius: 50px;
+    }
+    
+.menu a:hover {
+     text-align: center;
+     background-color: blue; 
+     
+    
+    }
+
+.capa1 {
+    position: relative;
+    left: 1cm;
+}
+
+.titulo p {
+    position: relative;
+    left: 20cm;
+    font-size: 40px;
+}
+
+.titulo1 {
+    display: top;
+    position: absolute;
+    left: 10cm;
+    font-size: 30px;
+}
+
+.resumo {
+    position: absolute;
+    left: 10cm;
+    text-align:start;
+    top: 7cm;
+    font-size: 20px
+}
+
+.tabela {
+    position: relative;
+    left: 2cm;
+    height: 4cm;
+}
+
+.capa2 {
+    position: relative;
+    left: 1cm;
+    
+}
+
+.resumo1 {
+    position: absolute;
+    left: 10cm;
+    top: 20cm;
+    font-size: 20px;
+    text-align: left;
+}
+
+.tabela2 {
+    position: relative;
+    left: 2cm;
+    height: 3cm;
+}
+
+.resumo2 {
+    position:absolute;
+    left: 10cm;
+    font-size: 20px;
+    text-align: left;
+}
+
+.tabela3 {
+    position: relative;
+    left: 2cm;
+    height: 5cm;
+}
+
+.tabela4 {
+    position: relative;
+    left: 2cm;
+    height: 5cm;
+}
+
+.menu1 {
+    background-color: transparent;
+    position: relative;
+    left: 13cm;
+    margin: 2%;
+    word-spacing: 14px;
+    font-size: 25px;
+    transition: 0.2s;
+
+   }
+   
+.menu1 a {
+    padding: 10px 20px;
+    border-radius: 50px;
+   }
+   
+.menu1 a:hover {
+    text-align: center;
+    background-color: blue; 
+   
+   }
+
+   .tabela5 {
+    position: relative;
+    left: 2cm;
+    height: 6cm;
+   }
+
+   .tabela6 {
+    position: relative;
+    left: 2cm;
+    height: 6cm;
+   }

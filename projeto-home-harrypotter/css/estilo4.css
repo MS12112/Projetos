@@ -1,0 +1,96 @@
+.menu {
+    background-color: transparent;
+    position: relative;
+    right: 0cm;
+    margin: 2%;
+    float: right;
+    word-spacing: 14px;
+    font-size: 25px;
+    transition: 0.2s;
+
+   }
+   
+.menu a {
+    padding: 10px 20px;
+    border-radius: 50px;
+   }
+   
+.menu a:hover {
+    text-align: center;
+    background-color: blue; 
+    
+   
+   }
+
+.capa1 {
+   position: relative;
+   left: 1cm;
+}
+
+.titulo p {
+   position: relative;
+   left:19cm;
+   font-size: 40px;
+}
+
+.curilist {
+   position: relative;
+   font-size: 25px;
+   margin: 3cm;
+}
+
+.Hogwarts {
+   position: relative;
+   left: 10cm;
+}
+
+.bibi {
+   display: flex;
+   align-items: center;
+}
+
+.titulo2 p {
+   position: relative;
+   left:16cm;
+   font-size: 40px;
+}
+
+.AUTOR a img {
+ height: 200px;
+ height: 200px;
+ border-radius: 50%;
+}
+
+.tex p {
+ text-align: center;
+}
+
+.contato p {
+   position: relative;
+  left: 1cm;
+  top: -5cm;
+}
+
+.men {
+   background-color: transparent;
+   position: relative;
+   right: 0cm;
+   margin: 2%;
+   float: right;
+   word-spacing: 14px;
+   font-size: 25px;
+   transition: 0.2s;
+   top: -2cm;
+
+  }
+  
+.men a {
+   padding: 10px 20px;
+   border-radius: 50px;
+  }
+  
+.men a:hover {
+   text-align: center;
+   background-color: blue; 
+   
+  }

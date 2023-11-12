@@ -1,0 +1,45 @@
+.menu {
+position: relative;
+right: 0cm;
+ margin: 2%;
+ float: right;
+ word-spacing: 14px;
+ font-size: 25px;
+ transition: 0.2s;
+ background-color: transparent;
+}
+
+.menu a {
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.menu a:hover {
+    background-color: blue; 
+
+}
+
+.video-fundo {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.video-fundo::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,8) 100%);
+}
+
+.logo-gif {
+    background-color: transparent;
+}
+    

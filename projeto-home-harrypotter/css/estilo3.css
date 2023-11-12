@@ -1,0 +1,80 @@
+.menu {
+    background-color: transparent;
+    position: relative;
+    margin: 2%;
+    float: right;
+    word-spacing: 14px;
+    font-size: 25px;
+    transition: 0.2s;
+
+   }
+   
+.menu a {
+    padding: 10px 20px;
+    border-radius: 50px;
+   }
+   
+.menu a:hover {
+    text-align: center;
+    background-color: blue; 
+   
+   }
+
+   .titulo p {
+    position: relative;
+    left: 18cm;
+    font-size: 40px;
+   }
+
+.tabela2 {
+    position: relative;
+    height: 1cm;
+}
+
+.tabela3 {
+    position: relative;
+    display: contents;
+}
+
+.casas {
+    position: relative;
+    top: 5cm;
+}
+
+.tabela8 {
+    position: absolute;
+    top: 1;
+}
+
+.menu1 {
+    background-color: transparent;
+    position: relative;
+    right:1cm;
+    margin: 2%;
+    float: right;
+    word-spacing: 14px;
+    font-size: 25px;
+    transition: 0.2s;
+
+   }
+   
+.menu1 a {
+    padding: 10px 20px;
+    border-radius: 50px;
+   }
+   
+.menu1 a:hover {
+    text-align: center;
+    background-color: blue; 
+   
+   }
+
+   .erro table tr {
+    position: relative;
+    top: 2cm;
+   }
+
+   .tika {
+    text-align: center;
+    font-size:28px;
+   }
