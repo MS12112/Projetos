@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* Define a altura do body para 100% da altura da viewport */
+    background-image: url('/IMG/fd.png'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.nome, .senha {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; /* Largura total do contêiner pai */
+    max-width: 300px; /* Largura máxima do campo de entrada */
+    padding: 10px; /* Espaço interno */
+    border: 1px solid #ccc; /* Borda do campo de entrada */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+button {
+    width: 100%; /* Largura total do contêiner pai */
+    max-width: 300px; /* Largura máxima do botão */
+    padding: 10px; /* Espaço interno */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para um indicador de clique */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    display: none; /* Inicialmente escondido */
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+    justify-content: center;
+    display: flex; /* Flexbox para alinhar imagem e texto */
+}
+
+#loginForm {
+    position: relative;
+    bottom: cm;
+    width: 100%;
+    right: 5cm;
+}
+
+.logo{
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centraliza os links no centro horizontalmente */
+    position: relative;
+    bottom: 7cm;
+}
+
+.menu a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaço interno */
+    margin: 0 10px; /* Espaço entre os links */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.content {
+    flex: 1; /* Faz com que o conteúdo ocupe o espaço restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black; /* Adiciona sombra ao texto para melhor visibilidade */
+}
